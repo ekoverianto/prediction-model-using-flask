@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+   <body>
+   <center>
+    <div class="div2">
+      <form action = "http://localhost:5000" method = "POST">
+	  <!--<form action = "http://192.168.1.3:5000" method = "POST">-->
+         <p> Masukin Pengalaman Kerja <input type = "text" name = "PengalamanKerja" /> <input type = "submit" value = "Prediksi" required="required" /> </p>
+      </form>
+    
+   <p>Prediksi <i>salary</i> anda adalah: {{ result }}</p>
+   </div>
+   </center>
+   </body>
+<style>
+    .div2 {
+     width: 400px;
+     height: 100px;  
+     padding: 50px;
+     border: 1px solid black;
+   }
+   </style>
+</html>

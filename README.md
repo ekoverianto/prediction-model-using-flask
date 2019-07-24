@@ -1,2 +1,3 @@
-# prediction-model-using-flask
-Production Level
+### prediction-model-using-flask
+## Production Level
+Reference https://medium.com/@986110101/cara-men-deploy-model-machine-learning-sederhana-menggunakan-flask-a7fc0ac15aad
